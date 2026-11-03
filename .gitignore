@@ -1,0 +1,25 @@
+.build/
+.swiftpm/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.app
+.DS_Store
+
+# Local build state and validation artifacts; never publish credentials.
+.local-work/
+build/
+previews/
+validation/
+LIVE-SMOKE-TEST.json
+work/
+.env
+.env.*
+*.p12
+*.pfx
+*.key
+*.cer
+*.mobileprovision
+*.p8
+*.pem
