@@ -119,7 +119,8 @@ Faltan validaciones que no se pueden sustituir con dobles de prueba:
   energía, sin alterar la sesión de trabajo del usuario.
 - Probar apertura/cierre de tapa, caída de la app, retorno de audio/brillo y
   hotspot con supervisión y restauración confirmada.
-- Revisar endurecimiento del daemon y todo el código heredado antes de publicar.
+- Continuar la revisión del daemon y del código heredado antes de distribuir
+  versiones destinadas a uso desatendido.
 - Validar el instalador y desinstalador locales con una firma real y recuperación supervisada.
 
 Hay dos scripts locales de instalación/desinstalación. Sin argumentos muestran
@@ -165,5 +166,7 @@ a meeting with the lid closed needs AirPods or an external mic.
 El README público es deliberadamente breve. Los workflows originales se
 conservan como fixtures en `docs/upstream-github/`, fuera de `.github/`, para
 que no se ejecuten al subir el repositorio. Los tests estáticos leen ese archivo
-histórico, no atribuyen sus versiones o garantías a Stay Awake. La publicación
-pública sigue pendiente de las comprobaciones reales acordadas.
+histórico, no atribuyen sus versiones o garantías a Stay Awake. El código se
+publica en [sergiobascon-dev/Stay-Awake](https://github.com/sergiobascon-dev/Stay-Awake)
+como proyecto experimental. Siguen pendientes las comprobaciones reales de
+funcionamiento que se detallan en VALIDATION.md.

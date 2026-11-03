@@ -1,9 +1,9 @@
 # Security
 
 Stay Awake is experimental. Automated tests do not certify security or prove
-unattended, closed-lid operation on a real Mac. Signed-service installation,
-recovery after crashes, real hotspot handoff and full uninstall remain pending
-supervised integration checks. Do not use unattended sessions yet.
+unattended operation. Basic signed-service installation and a brief closed-lid
+session were exercised on one Mac. Recovery after crashes, real hotspot handoff
+and full uninstall still require supervised integration checks. Do not use unattended sessions yet.
 
 The local power service accepts a fixed set of operations. Both peers require
 the same application identifier and Team ID. Distribution builds require a
